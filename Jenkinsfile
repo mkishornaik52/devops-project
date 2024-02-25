@@ -19,7 +19,7 @@ pipeline {
         
         stage('Move Files') {
             steps {
-                sh 'sudo cp -r devops-project/* /var/www/html/'
+                sh 'sudo cp index.html /var/www/html/'
             }
         }
         
